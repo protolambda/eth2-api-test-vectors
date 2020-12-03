@@ -1,0 +1,169 @@
+[
+  {
+    "input": {
+      "block_id": "genesis"
+    },
+    "path": "/eth/v1/beacon/headers/genesis",
+    "description": "valid block header req",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0x4d611d5b93fdab69013a7f0a2f961caca0c853f87cfe9595fe50038163079360",
+        "canonical": true,
+        "header": {
+          "message": {
+            "slot": "0",
+            "proposer_index": "0",
+            "parent_root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "state_root": "0x7e76880eb67bbdc86250aa578958e9d0675e64e714337855204fb5abaaf82c2b",
+            "body_root": "0xccb62460692be0ec813b56be97f68a82cf57abc102e27bf49ebf4190ff22eedd"
+          },
+          "signature": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "block_id": "head"
+    },
+    "path": "/eth/v1/beacon/headers/head",
+    "description": "valid block header req",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0x2b4cd727c59a660f93d18daf235cf860d68d4a2eef33a19035fa583efe007482",
+        "canonical": true,
+        "header": {
+          "message": {
+            "slot": "4510",
+            "proposer_index": "2819",
+            "parent_root": "0x8c4bef65f75d1f6d1bb3efaf35c3833a4cfe78b2518c4ed535e50665ddf67444",
+            "state_root": "0xf5be57a62d54399adc571ca0eed1b4145fa6f045512e22724dfbc92601b33184",
+            "body_root": "0x7a45c042985aab51d230ac37eded756970858beff37aae149d76c3455ab3f792"
+          },
+          "signature": "0xa13125ad76b72a10c6171fb2d37dbc65b4b1b5b78dd94fdce1cbc689b1302cee011ec1f0d3270317f48f573f8ecf0e2d11feb2bb3653afdb3fcdfe30cb0a1bf37d6f9482bae482c915ade79f4a40a9fdf34d9f8ef981fbb73b23cb148c57fe6e"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "block_id": "finalized"
+    },
+    "path": "/eth/v1/beacon/headers/finalized",
+    "description": "valid block header req",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0xa30f7f9f712c4856d8ed24f1cb1924accc0237bcb74bac25acbc7baa276dc0d0",
+        "canonical": true,
+        "header": {
+          "message": {
+            "slot": "4416",
+            "proposer_index": "17949",
+            "parent_root": "0xd31b898164ce07548a313e289160ca02a4131a39789480b8584a5582a0362007",
+            "state_root": "0x628a2dc3c6c671abb1838795f18a37f652ac80dad9d298a2b9b915e35e80add1",
+            "body_root": "0x9a61e8bb43d70a462d11da7945f667ac73c0531fa5d3c7ea6219a0ed05cfff3e"
+          },
+          "signature": "0xae48c23d834157c6aeb0d7201c5e188f1f4b1942bbb1a06f85eb1a9ba508a390247b8f2f043285e094b81e7df2044d84150f95f21342eb402dd1362fec518aa7573a8d6994039e95ddf7e9f5d46f8c5727c4ef476804c36fbc6d43c0065477f2"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "block_id": "100"
+    },
+    "path": "/eth/v1/beacon/headers/100",
+    "description": "valid block header req",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0x582187e97f7520bb69eea014c3834c964c45259372a0eaaea3f032013797996b",
+        "canonical": true,
+        "header": {
+          "message": {
+            "slot": "100",
+            "proposer_index": "1144",
+            "parent_root": "0x629ae1587895043076500f4f5dcb202a47c2fc95d5b5c548cb83bc97bd2dbfe1",
+            "state_root": "0xf286a0379c0386a3c7be28d05d829f8eb7b280cc9ede15449af20ebcd06a7a56",
+            "body_root": "0xe2d63a5c2125f914d972fc98cbbc405e36c8ba9a0b7fbb4c68dd67ca85c450b7"
+          },
+          "signature": "0xa45546290c09068ded3dec77f01a5d34cd5b1df85a734a04d58c722f54ab6ad4764c2c4029fb7fbe8bcc2dfdc12e1c8e0ea2879a278b1ddb022e84b01c8807640da3ec5a5a8cf3e979be3cf7555df36490d904b5b71c87b59d480b0c3cf98eb2"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "block_id": "0xb6c2a16aa85959604baba5344e869cabe1d096bb179d57e61fdca933f5ec7bf5"
+    },
+    "path": "/eth/v1/beacon/headers/0xb6c2a16aa85959604baba5344e869cabe1d096bb179d57e61fdca933f5ec7bf5",
+    "description": "valid block header req",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0xb6c2a16aa85959604baba5344e869cabe1d096bb179d57e61fdca933f5ec7bf5",
+        "canonical": true,
+        "header": {
+          "message": {
+            "slot": "3",
+            "proposer_index": "20640",
+            "parent_root": "0x2757f6fd8590925cd000a86a3e543f98a93eae23781783a33e34504729a8ad0c",
+            "state_root": "0xea80b8dfdde8331107e3021390b16544b60021e31b9c7d4192a28e1f661c1e85",
+            "body_root": "0xd0a3c081adb99e99f6c23cae0416e11706970bcdd774a26e55c7f983c9757404"
+          },
+          "signature": "0xa68eccda0ad17e3b8fa74b65bf77c4612fca83f7ff852568f08bdbb94726862a1dc1076969db610b09f7908ae14436b01901e10ddefe3de03089f0dc85ae196dbad3013ebd194cc4aeb1be0bf803af0271f55e1860bdc86844af3d245311a2c2"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "block_id": "wut"
+    },
+    "path": "/eth/v1/beacon/headers/wut",
+    "description": "invalid block header req",
+    "code": 405,
+    "post": null,
+    "response": {
+      "code": 405,
+      "message": "METHOD_NOT_ALLOWED",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "block_id": "1000000000"
+    },
+    "path": "/eth/v1/beacon/headers/1000000000",
+    "description": "non-existent block header req",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon block at slot 1000000000",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "block_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "path": "/eth/v1/beacon/headers/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "description": "non-existent block header req",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon block with root 0xaaaa\u2026aaaa",
+      "stacktraces": []
+    }
+  }
+]

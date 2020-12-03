@@ -1,0 +1,12 @@
+[
+  {
+    "input": {},
+    "path": "/eth/v1/beacon/pool/voluntary_exits",
+    "description": "get all voluntary exits",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": []
+    }
+  }
+]

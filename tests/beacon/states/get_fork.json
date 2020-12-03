@@ -1,0 +1,140 @@
+[
+  {
+    "input": {
+      "state_id": "genesis"
+    },
+    "path": "/eth/v1/beacon/states/genesis/fork",
+    "description": "request fork of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_version": "0x00000000",
+        "current_version": "0x00000000",
+        "epoch": "0"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "head"
+    },
+    "path": "/eth/v1/beacon/states/head/fork",
+    "description": "request fork of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_version": "0x00000000",
+        "current_version": "0x00000000",
+        "epoch": "0"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "justified"
+    },
+    "path": "/eth/v1/beacon/states/justified/fork",
+    "description": "request fork of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_version": "0x00000000",
+        "current_version": "0x00000000",
+        "epoch": "0"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "finalized"
+    },
+    "path": "/eth/v1/beacon/states/finalized/fork",
+    "description": "request fork of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_version": "0x00000000",
+        "current_version": "0x00000000",
+        "epoch": "0"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "100"
+    },
+    "path": "/eth/v1/beacon/states/100/fork",
+    "description": "request fork of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_version": "0x00000000",
+        "current_version": "0x00000000",
+        "epoch": "0"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172"
+    },
+    "path": "/eth/v1/beacon/states/0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172/fork",
+    "description": "request fork of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_version": "0x00000000",
+        "current_version": "0x00000000",
+        "epoch": "0"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "wut"
+    },
+    "path": "/eth/v1/beacon/states/wut/fork",
+    "description": "request fork of invalid state",
+    "code": 400,
+    "post": null,
+    "response": {
+      "code": 400,
+      "message": "BAD_REQUEST: Invalid state ID",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "1000000000"
+    },
+    "path": "/eth/v1/beacon/states/1000000000/fork",
+    "description": "request fork of unknown state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon state at slot 1000000000",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "path": "/eth/v1/beacon/states/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/fork",
+    "description": "request fork of unknown state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon state at root 0xaaaa\u2026aaaa",
+      "stacktraces": []
+    }
+  }
+]

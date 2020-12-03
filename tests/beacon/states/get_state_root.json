@@ -1,0 +1,128 @@
+[
+  {
+    "input": {
+      "state_id": "genesis"
+    },
+    "path": "/eth/v1/beacon/states/genesis/root",
+    "description": "request root of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0x7e76880eb67bbdc86250aa578958e9d0675e64e714337855204fb5abaaf82c2b"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "head"
+    },
+    "path": "/eth/v1/beacon/states/head/root",
+    "description": "request root of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0xcfb4370ca545f1f3b85c28f301e3af9414cd4fd8391c76967e09b1ef79ce671d"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "justified"
+    },
+    "path": "/eth/v1/beacon/states/justified/root",
+    "description": "request root of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0x1be3d0c685c5e1ea36c49d0dfe88ad4689d53526c6954dd0565b9df836652356"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "finalized"
+    },
+    "path": "/eth/v1/beacon/states/finalized/root",
+    "description": "request root of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0xee218898a856a513b5fd02487a425d36abc801a465bb288df87256487fd03d66"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "100"
+    },
+    "path": "/eth/v1/beacon/states/100/root",
+    "description": "request root of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0xf286a0379c0386a3c7be28d05d829f8eb7b280cc9ede15449af20ebcd06a7a56"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172"
+    },
+    "path": "/eth/v1/beacon/states/0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172/root",
+    "description": "request root of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172"
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "wut"
+    },
+    "path": "/eth/v1/beacon/states/wut/root",
+    "description": "request root of invalid state",
+    "code": 400,
+    "post": null,
+    "response": {
+      "code": 400,
+      "message": "BAD_REQUEST: Invalid state ID",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "1000000000"
+    },
+    "path": "/eth/v1/beacon/states/1000000000/root",
+    "description": "request root of unknown state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon state at slot 1000000000",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "path": "/eth/v1/beacon/states/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/root",
+    "description": "request root of unknown state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "root": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  }
+]

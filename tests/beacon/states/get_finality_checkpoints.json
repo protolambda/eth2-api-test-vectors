@@ -1,0 +1,194 @@
+[
+  {
+    "input": {
+      "state_id": "genesis"
+    },
+    "path": "/eth/v1/beacon/states/genesis/finality_checkpoints",
+    "description": "request finality_checkpoints of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_justified": {
+          "epoch": "0",
+          "root": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "current_justified": {
+          "epoch": "0",
+          "root": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "finalized": {
+          "epoch": "0",
+          "root": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "head"
+    },
+    "path": "/eth/v1/beacon/states/head/finality_checkpoints",
+    "description": "request finality_checkpoints of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_justified": {
+          "epoch": "351",
+          "root": "0xf989cce2247b4a0f840e721b215b6ebe3fea3fbca1b1c54b63d797041c917e06"
+        },
+        "current_justified": {
+          "epoch": "352",
+          "root": "0x4f1980cd3e02fd954635ca4919f137afc639442d4fd886eabf502102e04e6523"
+        },
+        "finalized": {
+          "epoch": "351",
+          "root": "0xf989cce2247b4a0f840e721b215b6ebe3fea3fbca1b1c54b63d797041c917e06"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "justified"
+    },
+    "path": "/eth/v1/beacon/states/justified/finality_checkpoints",
+    "description": "request finality_checkpoints of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_justified": {
+          "epoch": "350",
+          "root": "0xf649e3c82c50611b3f85d480332338143c1528ca153bdf37ba8136a82d10f648"
+        },
+        "current_justified": {
+          "epoch": "351",
+          "root": "0xf989cce2247b4a0f840e721b215b6ebe3fea3fbca1b1c54b63d797041c917e06"
+        },
+        "finalized": {
+          "epoch": "350",
+          "root": "0xf649e3c82c50611b3f85d480332338143c1528ca153bdf37ba8136a82d10f648"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "finalized"
+    },
+    "path": "/eth/v1/beacon/states/finalized/finality_checkpoints",
+    "description": "request finality_checkpoints of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_justified": {
+          "epoch": "349",
+          "root": "0xb0b422f398e9dce5c5bba98156e75179293a046ab2759a1e7fcc8f0a330bde4c"
+        },
+        "current_justified": {
+          "epoch": "350",
+          "root": "0xf649e3c82c50611b3f85d480332338143c1528ca153bdf37ba8136a82d10f648"
+        },
+        "finalized": {
+          "epoch": "349",
+          "root": "0xb0b422f398e9dce5c5bba98156e75179293a046ab2759a1e7fcc8f0a330bde4c"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "100"
+    },
+    "path": "/eth/v1/beacon/states/100/finality_checkpoints",
+    "description": "request finality_checkpoints of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_justified": {
+          "epoch": "0",
+          "root": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "current_justified": {
+          "epoch": "2",
+          "root": "0xace2240dfe1fd056fba17e84e617578c5ec2dd96f6190009b32116dc7b9aae67"
+        },
+        "finalized": {
+          "epoch": "0",
+          "root": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172"
+    },
+    "path": "/eth/v1/beacon/states/0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172/finality_checkpoints",
+    "description": "request finality_checkpoints of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "previous_justified": {
+          "epoch": "133",
+          "root": "0x98d7178fd5d810845d675b015bec5b36a05c10fea174e5b5186c20e4acc10afa"
+        },
+        "current_justified": {
+          "epoch": "134",
+          "root": "0x2e47edf9e4ae70998223cdc9f89363c84608ecac4c856a7824da6c405df7a4a0"
+        },
+        "finalized": {
+          "epoch": "133",
+          "root": "0x98d7178fd5d810845d675b015bec5b36a05c10fea174e5b5186c20e4acc10afa"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "wut"
+    },
+    "path": "/eth/v1/beacon/states/wut/finality_checkpoints",
+    "description": "request finality_checkpoints of invalid state",
+    "code": 400,
+    "post": null,
+    "response": {
+      "code": 400,
+      "message": "BAD_REQUEST: Invalid state ID",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "1000000000"
+    },
+    "path": "/eth/v1/beacon/states/1000000000/finality_checkpoints",
+    "description": "request finality_checkpoints of unknown state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon state at slot 1000000000",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "path": "/eth/v1/beacon/states/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/finality_checkpoints",
+    "description": "request finality_checkpoints of unknown state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon state at root 0xaaaa\u2026aaaa",
+      "stacktraces": []
+    }
+  }
+]

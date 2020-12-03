@@ -1,0 +1,893 @@
+[
+  {
+    "input": {
+      "state_id": "genesis",
+      "validator_id": "morty"
+    },
+    "path": "/eth/v1/beacon/states/genesis/validators/morty",
+    "description": "request invalid validator morty of state",
+    "code": 405,
+    "post": null,
+    "response": {
+      "code": 405,
+      "message": "METHOD_NOT_ALLOWED",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "head",
+      "validator_id": "morty"
+    },
+    "path": "/eth/v1/beacon/states/head/validators/morty",
+    "description": "request invalid validator morty of state",
+    "code": 405,
+    "post": null,
+    "response": {
+      "code": 405,
+      "message": "METHOD_NOT_ALLOWED",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "justified",
+      "validator_id": "morty"
+    },
+    "path": "/eth/v1/beacon/states/justified/validators/morty",
+    "description": "request invalid validator morty of state",
+    "code": 405,
+    "post": null,
+    "response": {
+      "code": 405,
+      "message": "METHOD_NOT_ALLOWED",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "finalized",
+      "validator_id": "morty"
+    },
+    "path": "/eth/v1/beacon/states/finalized/validators/morty",
+    "description": "request invalid validator morty of state",
+    "code": 405,
+    "post": null,
+    "response": {
+      "code": 405,
+      "message": "METHOD_NOT_ALLOWED",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "100",
+      "validator_id": "morty"
+    },
+    "path": "/eth/v1/beacon/states/100/validators/morty",
+    "description": "request invalid validator morty of state",
+    "code": 405,
+    "post": null,
+    "response": {
+      "code": 405,
+      "message": "METHOD_NOT_ALLOWED",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172",
+      "validator_id": "morty"
+    },
+    "path": "/eth/v1/beacon/states/0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172/validators/morty",
+    "description": "request invalid validator morty of state",
+    "code": 405,
+    "post": null,
+    "response": {
+      "code": 405,
+      "message": "METHOD_NOT_ALLOWED",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "genesis",
+      "validator_id": "99999999"
+    },
+    "path": "/eth/v1/beacon/states/genesis/validators/99999999",
+    "description": "request non-existent validator 99999999 of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 99999999",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "head",
+      "validator_id": "99999999"
+    },
+    "path": "/eth/v1/beacon/states/head/validators/99999999",
+    "description": "request non-existent validator 99999999 of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 99999999",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "justified",
+      "validator_id": "99999999"
+    },
+    "path": "/eth/v1/beacon/states/justified/validators/99999999",
+    "description": "request non-existent validator 99999999 of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 99999999",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "finalized",
+      "validator_id": "99999999"
+    },
+    "path": "/eth/v1/beacon/states/finalized/validators/99999999",
+    "description": "request non-existent validator 99999999 of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 99999999",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "100",
+      "validator_id": "99999999"
+    },
+    "path": "/eth/v1/beacon/states/100/validators/99999999",
+    "description": "request non-existent validator 99999999 of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 99999999",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172",
+      "validator_id": "99999999"
+    },
+    "path": "/eth/v1/beacon/states/0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172/validators/99999999",
+    "description": "request non-existent validator 99999999 of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 99999999",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "genesis",
+      "validator_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "path": "/eth/v1/beacon/states/genesis/validators/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "description": "request non-existent validator 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "head",
+      "validator_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "path": "/eth/v1/beacon/states/head/validators/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "description": "request non-existent validator 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "justified",
+      "validator_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "path": "/eth/v1/beacon/states/justified/validators/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "description": "request non-existent validator 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "finalized",
+      "validator_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "path": "/eth/v1/beacon/states/finalized/validators/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "description": "request non-existent validator 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "100",
+      "validator_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "path": "/eth/v1/beacon/states/100/validators/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "description": "request non-existent validator 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172",
+      "validator_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "path": "/eth/v1/beacon/states/0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172/validators/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "description": "request non-existent validator 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa of state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: unknown validator: 0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "genesis",
+      "validator_id": "0"
+    },
+    "path": "/eth/v1/beacon/states/genesis/validators/0",
+    "description": "request validator 0 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "0",
+        "balance": "32000000000",
+        "status": "active",
+        "validator": {
+          "pubkey": "0x933ad9491b62059dd065b560d256d8957a8c402cc6e8d8ee7290ae11e8f7329267a8811c397529dac52ae1342ba58c95",
+          "withdrawal_credentials": "0x00f50428677c60f997aadeab24aabf7fceaef491c96a52b463ae91f95611cf71",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "head",
+      "validator_id": "0"
+    },
+    "path": "/eth/v1/beacon/states/head/validators/0",
+    "description": "request validator 0 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "0",
+        "balance": "32029596426",
+        "status": "active",
+        "validator": {
+          "pubkey": "0x933ad9491b62059dd065b560d256d8957a8c402cc6e8d8ee7290ae11e8f7329267a8811c397529dac52ae1342ba58c95",
+          "withdrawal_credentials": "0x00f50428677c60f997aadeab24aabf7fceaef491c96a52b463ae91f95611cf71",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "justified",
+      "validator_id": "0"
+    },
+    "path": "/eth/v1/beacon/states/justified/validators/0",
+    "description": "request validator 0 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "0",
+        "balance": "32029523898",
+        "status": "active",
+        "validator": {
+          "pubkey": "0x933ad9491b62059dd065b560d256d8957a8c402cc6e8d8ee7290ae11e8f7329267a8811c397529dac52ae1342ba58c95",
+          "withdrawal_credentials": "0x00f50428677c60f997aadeab24aabf7fceaef491c96a52b463ae91f95611cf71",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "finalized",
+      "validator_id": "0"
+    },
+    "path": "/eth/v1/beacon/states/finalized/validators/0",
+    "description": "request validator 0 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "0",
+        "balance": "32029452537",
+        "status": "active",
+        "validator": {
+          "pubkey": "0x933ad9491b62059dd065b560d256d8957a8c402cc6e8d8ee7290ae11e8f7329267a8811c397529dac52ae1342ba58c95",
+          "withdrawal_credentials": "0x00f50428677c60f997aadeab24aabf7fceaef491c96a52b463ae91f95611cf71",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "100",
+      "validator_id": "0"
+    },
+    "path": "/eth/v1/beacon/states/100/validators/0",
+    "description": "request validator 0 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "0",
+        "balance": "32000128318",
+        "status": "active",
+        "validator": {
+          "pubkey": "0x933ad9491b62059dd065b560d256d8957a8c402cc6e8d8ee7290ae11e8f7329267a8811c397529dac52ae1342ba58c95",
+          "withdrawal_credentials": "0x00f50428677c60f997aadeab24aabf7fceaef491c96a52b463ae91f95611cf71",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172",
+      "validator_id": "0"
+    },
+    "path": "/eth/v1/beacon/states/0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172/validators/0",
+    "description": "request validator 0 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "0",
+        "balance": "32010918504",
+        "status": "active",
+        "validator": {
+          "pubkey": "0x933ad9491b62059dd065b560d256d8957a8c402cc6e8d8ee7290ae11e8f7329267a8811c397529dac52ae1342ba58c95",
+          "withdrawal_credentials": "0x00f50428677c60f997aadeab24aabf7fceaef491c96a52b463ae91f95611cf71",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "wut",
+      "validator_id": "0"
+    },
+    "path": "/eth/v1/beacon/states/wut/validators/0",
+    "description": "request validator 0 of invalid state",
+    "code": 400,
+    "post": null,
+    "response": {
+      "code": 400,
+      "message": "BAD_REQUEST: Invalid state ID",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "1000000000",
+      "validator_id": "0"
+    },
+    "path": "/eth/v1/beacon/states/1000000000/validators/0",
+    "description": "request validator 0 of unknown state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon state at slot 1000000000",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "validator_id": "0"
+    },
+    "path": "/eth/v1/beacon/states/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/validators/0",
+    "description": "request validator 0 of unknown state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon state at root 0xaaaa\u2026aaaa",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "genesis",
+      "validator_id": "16000"
+    },
+    "path": "/eth/v1/beacon/states/genesis/validators/16000",
+    "description": "request validator 16000 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "16000",
+        "balance": "32000000000",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xb0e546357573b11476b88b86096819442b6086688b9f67ec92a6b2aae2e0efc8d4d98a5fa2684eec56d9845f282492c6",
+          "withdrawal_credentials": "0x0069caed2e6ff5f958702cd24e90a08d405d8448ebfa06dd4dccf97e75a73a64",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "head",
+      "validator_id": "16000"
+    },
+    "path": "/eth/v1/beacon/states/head/validators/16000",
+    "description": "request validator 16000 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "16000",
+        "balance": "32022511885",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xb0e546357573b11476b88b86096819442b6086688b9f67ec92a6b2aae2e0efc8d4d98a5fa2684eec56d9845f282492c6",
+          "withdrawal_credentials": "0x0069caed2e6ff5f958702cd24e90a08d405d8448ebfa06dd4dccf97e75a73a64",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "justified",
+      "validator_id": "16000"
+    },
+    "path": "/eth/v1/beacon/states/justified/validators/16000",
+    "description": "request validator 16000 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "16000",
+        "balance": "32022439357",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xb0e546357573b11476b88b86096819442b6086688b9f67ec92a6b2aae2e0efc8d4d98a5fa2684eec56d9845f282492c6",
+          "withdrawal_credentials": "0x0069caed2e6ff5f958702cd24e90a08d405d8448ebfa06dd4dccf97e75a73a64",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "finalized",
+      "validator_id": "16000"
+    },
+    "path": "/eth/v1/beacon/states/finalized/validators/16000",
+    "description": "request validator 16000 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "16000",
+        "balance": "32022367996",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xb0e546357573b11476b88b86096819442b6086688b9f67ec92a6b2aae2e0efc8d4d98a5fa2684eec56d9845f282492c6",
+          "withdrawal_credentials": "0x0069caed2e6ff5f958702cd24e90a08d405d8448ebfa06dd4dccf97e75a73a64",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "100",
+      "validator_id": "16000"
+    },
+    "path": "/eth/v1/beacon/states/100/validators/16000",
+    "description": "request validator 16000 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "16000",
+        "balance": "32000128318",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xb0e546357573b11476b88b86096819442b6086688b9f67ec92a6b2aae2e0efc8d4d98a5fa2684eec56d9845f282492c6",
+          "withdrawal_credentials": "0x0069caed2e6ff5f958702cd24e90a08d405d8448ebfa06dd4dccf97e75a73a64",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172",
+      "validator_id": "16000"
+    },
+    "path": "/eth/v1/beacon/states/0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172/validators/16000",
+    "description": "request validator 16000 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "16000",
+        "balance": "32008009470",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xb0e546357573b11476b88b86096819442b6086688b9f67ec92a6b2aae2e0efc8d4d98a5fa2684eec56d9845f282492c6",
+          "withdrawal_credentials": "0x0069caed2e6ff5f958702cd24e90a08d405d8448ebfa06dd4dccf97e75a73a64",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "wut",
+      "validator_id": "16000"
+    },
+    "path": "/eth/v1/beacon/states/wut/validators/16000",
+    "description": "request validator 16000 of invalid state",
+    "code": 400,
+    "post": null,
+    "response": {
+      "code": 400,
+      "message": "BAD_REQUEST: Invalid state ID",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "1000000000",
+      "validator_id": "16000"
+    },
+    "path": "/eth/v1/beacon/states/1000000000/validators/16000",
+    "description": "request validator 16000 of unknown state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon state at slot 1000000000",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "validator_id": "16000"
+    },
+    "path": "/eth/v1/beacon/states/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/validators/16000",
+    "description": "request validator 16000 of unknown state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon state at root 0xaaaa\u2026aaaa",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "genesis",
+      "validator_id": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962"
+    },
+    "path": "/eth/v1/beacon/states/genesis/validators/0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+    "description": "request validator 0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "7",
+        "balance": "32000000000",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+          "withdrawal_credentials": "0x0092490f7b287435f160002f8061e59c060aad3eb37f1c0270472dc2563bc290",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "head",
+      "validator_id": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962"
+    },
+    "path": "/eth/v1/beacon/states/head/validators/0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+    "description": "request validator 0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "7",
+        "balance": "32025170381",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+          "withdrawal_credentials": "0x0092490f7b287435f160002f8061e59c060aad3eb37f1c0270472dc2563bc290",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "justified",
+      "validator_id": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962"
+    },
+    "path": "/eth/v1/beacon/states/justified/validators/0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+    "description": "request validator 0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "7",
+        "balance": "32025106240",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+          "withdrawal_credentials": "0x0092490f7b287435f160002f8061e59c060aad3eb37f1c0270472dc2563bc290",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "finalized",
+      "validator_id": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962"
+    },
+    "path": "/eth/v1/beacon/states/finalized/validators/0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+    "description": "request validator 0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "7",
+        "balance": "32025034879",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+          "withdrawal_credentials": "0x0092490f7b287435f160002f8061e59c060aad3eb37f1c0270472dc2563bc290",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "100",
+      "validator_id": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962"
+    },
+    "path": "/eth/v1/beacon/states/100/validators/0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+    "description": "request validator 0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "7",
+        "balance": "32000010112",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+          "withdrawal_credentials": "0x0092490f7b287435f160002f8061e59c060aad3eb37f1c0270472dc2563bc290",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172",
+      "validator_id": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962"
+    },
+    "path": "/eth/v1/beacon/states/0xcc75ccd8f72395180e745f2c3429cb1c69e0eddedb8f1e15297ea9bcdbbb9172/validators/0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+    "description": "request validator 0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962 of state",
+    "code": 200,
+    "post": null,
+    "response": {
+      "data": {
+        "index": "7",
+        "balance": "32009465976",
+        "status": "active",
+        "validator": {
+          "pubkey": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+          "withdrawal_credentials": "0x0092490f7b287435f160002f8061e59c060aad3eb37f1c0270472dc2563bc290",
+          "effective_balance": "32000000000",
+          "slashed": false,
+          "activation_eligibility_epoch": "0",
+          "activation_epoch": "0",
+          "exit_epoch": "18446744073709551615",
+          "withdrawable_epoch": "18446744073709551615"
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "state_id": "wut",
+      "validator_id": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962"
+    },
+    "path": "/eth/v1/beacon/states/wut/validators/0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+    "description": "request validator 0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962 of invalid state",
+    "code": 400,
+    "post": null,
+    "response": {
+      "code": 400,
+      "message": "BAD_REQUEST: Invalid state ID",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "1000000000",
+      "validator_id": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962"
+    },
+    "path": "/eth/v1/beacon/states/1000000000/validators/0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+    "description": "request validator 0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962 of unknown state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon state at slot 1000000000",
+      "stacktraces": []
+    }
+  },
+  {
+    "input": {
+      "state_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "validator_id": "0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962"
+    },
+    "path": "/eth/v1/beacon/states/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/validators/0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962",
+    "description": "request validator 0xa25da1827014cd3bc6e7b70f1375750935a16f00fbe186cc477c204d330cac7ee060b68587c5cdcfae937176a4dd2962 of unknown state",
+    "code": 404,
+    "post": null,
+    "response": {
+      "code": 404,
+      "message": "NOT_FOUND: beacon state at root 0xaaaa\u2026aaaa",
+      "stacktraces": []
+    }
+  }
+]
